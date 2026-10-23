@@ -1,0 +1,16 @@
+# UNRESOLVED: names only. Run "uv pip compile pyproject.toml -o requirements.txt --python-version 3.14" to pin.
+fastapi
+uvicorn[standard]
+sqlalchemy
+pydantic
+pydantic-settings
+email-validator
+argon2-cffi
+PyJWT
+python-multipart
+celery[redis]
+redis
+psycopg[binary]
+python-dateutil
+cryptography
+passlib[bcrypt]
